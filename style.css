@@ -1,0 +1,33 @@
+body {
+    background-color: #7e0606;
+    color: white;
+    font-family: "Crimson Text", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #7a7c04;
+    color: white;
+    font-family: " Crimson Text", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}

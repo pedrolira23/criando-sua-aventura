@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Ataque á Kamar-Taj</title>
+</head>
+<body>
+
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Você é um mago ainda em treinamento do grande templo de Kamar-Taj, lugar onde o Doutor Estranho ensina magia. Porém, há uma ameaça iminente, a Feiticeira Escarlate, ser de magia incomensurável, se aproxima para um ataque. Em que posição você vai ficar?</p>
+            <button class="btn-proximo" data-proximo="1">Ataque</button>
+            <button class="btn-proximo" data-proximo="2">Defesa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você parte para o ataque, quando a bruxa surge no céu, você pode escolher enfrentá-la com seus aliados ou fugir por sua vida.</p>
+            <button class="btn-proximo" data-proximo="3">Ir para a linha de frente</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e fugir</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide permanecer dentro do templo e se prepara para enfrentar a bruxa caso ela consiga passar dos outros magos. O que fazer agora?</p>
+            <button class="btn-proximo" data-proximo="5">Espiar lado de fora</button>
+            <button class="btn-proximo" data-proximo="6">Lançar um feitiço de proteção</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>A Feiticeira aparece no céu, rodeada de nuvens negras, pronta para atacar.</p>
+            <button class="btn-proximo" data-proximo="7">Tentar negociar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.jpg">
+            <p>Você tenta fugir pelos fundos do templo, mas é surpreendido por um penhasco. A última coisa que vê é um raio vermelho que te acerta.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você vê que a Feiticeira está preparando um ataque poderoso, e sente necessidade de ajudar mais.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para fora</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Seu feitiço protege o templo de danos físicos, mas não protege tua mente.</p>
+            <button class="btn-proximo" data-proximo="8">Espiar lado de fora</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você tenta barganhar com a bruxa, mas ela se nega a te ouvir e te ataca. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="9">Mantém sua posição</button>
+            <button class="btn-proximo" data-proximo="10">Foge</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Sua mente parece decidida a enfrentar o perigo, por mais que não haja muita chance de sucesso.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para fora</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>O ataque não te atinge, pois seus aliados haviam criado um escudo mágico envolta do templo.</p>
+            <button class="btn-proximo" data-proximo="11">Atacar</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Sua corrida atrapalha seus aliados que tentavam projetar um escudo. O templo torna-se vulnerável.</p>
+            <button class="btn-proximo" data-proximo="12">Manter sua posição</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.jpg">
+            <p>Seu ataque é certeiro no coração da Feiticeira, sem poder desviar-se, ela é derrubada.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>A bruxa avança com ferocidade contra Kamar-Taj, preparando sua magia.</p>
+            <button class="btn-proximo" data-proximo="11">Atacar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
